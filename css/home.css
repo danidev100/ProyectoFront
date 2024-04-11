@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: aliceblue;
+    padding: 10px;
+}
+
+.container-logo-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-logo-center img {
+    width: 200px;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+header h1 {
+    color: black;
+    margin: 0;
+    text-align: center;
+}
+
+nav {
+    background-color: #ccc;
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+}
+
+nav a {
+    color: #333;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+#vestier {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr auto;
+    gap: 100px;
+    grid-template-rows: 25vh;
+    align-items: center;
+}
+
+#vestier .product-text-info {
+    text-align: center;
+}
+
+section h2 {
+    color: #333;
+    margin: 0 0 10px;
+}
+
+article.product {
+    background-color: #ddd;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+article.product h3 {
+    color: #333;
+    margin: 0 0 5px;
+}
+
+article.product p {
+    color: #f00;
+    font-weight: bold;
+    margin: 0;
+}
+
+#contactenos {
+    background-color: #eee;
+    padding: 10px;
+    text-align: center;
+}
